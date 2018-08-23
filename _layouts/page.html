@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" class="no-js">
+{% include head.html %}
+<body>
+{% include nav-main.html %}
+{% include header.html %}	
+{% if page.id == "about" %}
+{% include about.html %}
+{% elsif page.id == "blog" %}
+{% include posts-index.html %}
+{% endif %}
+{% include footer.html %}
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/main.js"></script>
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+   $('body').toggleClass('no-scroll');
+});
+</script>
+</body>
+</html>

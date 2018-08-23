@@ -1,0 +1,49 @@
+<header class="cd-header post-header" data-type="slider-item">
+    <p class="logo-container header-video">
+    <ul class="post">
+        <li class="post-details">
+          <a href="{{ page.url }}" class="post-title blue">{{ page.title }}</a>
+          <span class="post-date blue">{{ page.date | date: "%m/%d" }}</span>
+        </li>
+        <li class="post-video">
+            {% if page.video-id %}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video-id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            {% else %}
+            <img src="{{ page.img }}" class="video-replacement-img" alt="Mikey Slice New Post Card"/>
+            {% endif %}
+        </li>
+    </ul>
+    </p>    
+
+</header>
+
+<div class="posts-wrapper">
+    <ul class="post">
+        <li class="post-content">
+          <span class="pizza-icon">&#127829;</span>
+          {{ content | markdownify }}
+          <hr class="post-end">
+          {% if page.disclaimer == "1" %}
+          {% include disclaimer.html %}
+          {% endif %}
+          {% if page.ad == "1" %}
+          {% include ad.html %}
+          {% endif %}
+          {% if page.services == "1" %}
+          {% include services.html %}
+          {% endif %}
+          {% if page.equipment == "1" %}
+          {% include equipment.html %}
+          {% endif %}
+        </li>
+    </ul>
+</div>
+
+<div class="previous-next">
+    {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{ page.previous.title | truncatewords: 5 }}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{ page.next.title | truncatewords: 5 }} &raquo;</a>
+    {% endif %}
+</div>   

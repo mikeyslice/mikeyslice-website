@@ -1,0 +1,36 @@
+<div class="posts-wrapper">
+    {% for post in paginator.posts %}
+    <ul class="post-index">
+        <li class="post-details">
+          <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+          <span class="post-date">{{ post.date | date: "%m/%d/%y" }}</span>
+          <span class="post-excerpt">{% if post.excerpt %}{{ post.excerpt | truncatewords: 30 }}{% else %}{{ post.content | strip_html | truncatewords: 50 }}{% endif %}</span>
+        </li>
+        <li class="post-video">
+            {% if post.video-id %}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ post.video-id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            {% else %}
+            <a href="{{ post.url }}" title="{{ post.title }}">
+            <img src="{{ post.img }}" class="video-replacement-img" alt="Mikey Slice New Post Card"/>
+            </a>
+            {% endif %}
+        </li>
+    </ul>
+    {% endfor %}
+    
+    {% if paginator.total_pages > 1 %}
+    <ul class="paginator-list">
+      {% if paginator.previous_page %}
+      <li>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older Posts</a>
+      </li>
+      {% endif %}
+    </ul>
+    {% endif %}
+</div>
+
