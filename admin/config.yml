@@ -21,9 +21,9 @@ collections:
       - {label: "YouTube Video ID", name: "video-id", widget: "text", required: false}
       - {label: "Image", name: "img", widget: "image", default: "/img/new_post.png", required: "false"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
-      - {label: "Disclaimer (1 for true, 0 for false)", name: "disclaimer", widget: "number", default: "1"}
-      - {label: "Ad (1 for true, 0 for false)", name: "ad", widget: "number", default: "1"}
-      - {label: "Equipment (1 for true, 0 for false)", name: "equipment", widget: "number", default: "1"}
-      - {label: "Services (1 for true, 0 for false)", name: "services", widget: "number", default: "1"}
+      - {label: "Disclaimer Section", name: "disclaimer", widget: "number", default: "1", hint: "Enter 1 to enable the Disclaimer or 0 to disable it"}
+      - {label: "Ad Section", name: "ad", widget: "number", default: "1", hint: "Enter 1 to enable the Ad or 0 to disable it"}
+      - {label: "Equipment Section", name: "equipment", widget: "number", default: "1", hint: "Enter 1 to enable the Equipment or 0 to disable it"}
+      - {label: "Services Section", name: "services", widget: "number", default: "1", hint: "Enter 1 to enable the Services or 0 to disable it"}
       - {label: "Post ID", name: "id", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
