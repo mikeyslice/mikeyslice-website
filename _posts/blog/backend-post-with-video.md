@@ -23,6 +23,6 @@ Also testing **markdown** *editor*:
 * item2
 * item3
 
-## Heading
+## Heading 2
 
 ![random image](https://source.unsplash.com/random/300x300)
