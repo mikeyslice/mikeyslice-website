@@ -12,6 +12,8 @@ collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     label_singular: "Post"
+    description: >
+      You can create new posts from here. For the Ad, Equipment, Services and Disclaimer section you can enter "1" to enable or "0" to disable them from your posts.
     folder: "_posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -20,11 +22,11 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "YouTube Video ID", name: "video-id", widget: "text", required: false}
-      - {label: "Image", name: "img", widget: "image", default: "/img/new_post.png", required: "false"}
+      - {label: "Image", name: "img", widget: "image", default: "/img/new_post.png", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Disclaimer Section", name: "disclaimer", widget: "number", default: "1", hint: "Enter 1 to enable the Disclaimer or 0 to disable it"}
       - {label: "Ad Section", name: "ad", widget: "number", default: "1", hint: "Enter 1 to enable the Ad or 0 to disable it"}
       - {label: "Equipment Section", name: "equipment", widget: "number", default: "1", hint: "Enter 1 to enable the Equipment or 0 to disable it"}
       - {label: "Services Section", name: "services", widget: "number", default: "1", hint: "Enter 1 to enable the Services or 0 to disable it"}
       - {label: "Post ID", name: "id", widget: "hidden", default: "post"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", hint: "You can use Markdown or Rich Text."}
