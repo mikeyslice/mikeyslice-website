@@ -5,7 +5,7 @@ permalink: "/:title/"
 markdown: kramdown
 
 # Excludes
-exclude: [.c9, admin]
+exclude: [.c9]
 
 # SEO
 title: "Mikeyslice.com - Home"
