@@ -2,7 +2,7 @@
 layout: post
 title: Testing required image and video fields for conflicts
 date: 2018-08-23T22:45:21.377Z
-video-id: rB4Cl5LSe2c
+video-id: '0'
 img: /img/new_post.png
 excerpt: Testing required image and video fields for conflicts
 disclaimer: '1'
