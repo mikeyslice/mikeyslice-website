@@ -2,12 +2,12 @@
 layout: post
 title: Custom Stinger Transitions Tutorial
 date: 2018-08-16T00:00:00.000Z
-video-id: MmIC4ppiNZY
+video-id: RMGqfdQ_k2I
 excerpt: Link to Fiverr gig in description.
-disclaimer: '1'
+disclaimer: '0'
 ad: '1'
-equipment: '1'
-services: '1'
+equipment: '0'
+services: '0'
 id: post
 ---
 
