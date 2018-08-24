@@ -61,5 +61,6 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
+          - {label: ID, name: id, widget: hidden, default: "about"}
               
               
