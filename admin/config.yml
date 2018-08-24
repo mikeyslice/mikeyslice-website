@@ -52,16 +52,13 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", hint: "You can use Markdown or Rich Text."}  
       
   - label: "Settings"
-    name: "config"
-    file: "_config.yml"
+    name: "stingers"
+    file: "stingers.md"
     description: "General Site Settings"
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
     fields:
-      - {label: "Global Title", name: "title", widget: "string"}
-      - {label: "Global Description", name: "description", widget: "string"}
-      - {label: "Main Page Header Title", name: "header-title", widget: "string"}
-      - {label: "Posts Per Page", name: "per-page", widget: "string"}
+      - {label: "Value", name: "redirect_to", widget: "string"}
               
               
