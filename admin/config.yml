@@ -52,8 +52,8 @@ collections:
       - {label: "Post ID", name: "id", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown", hint: "You can use Markdown or Rich Text."}  
       
-  - label: "Settings"
-    name: "stingers"
+  - name: "stingers"
+    label: "stingers"
     file: "stingers.md"
     description: "General Site Settings"
     delete: false # Prevent users from deleting documents in this collection
