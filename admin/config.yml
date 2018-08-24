@@ -54,12 +54,12 @@ collections:
       
   - name: "pages"
     label: "Pages"
+    description: >
+      You can only edit the website pages here, not the posts.
     files:
       - label: "About Page"
         name: "about"
         file: "about.html"
-        description: >
-          You can edit the About page title, description and content here.
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
@@ -69,8 +69,8 @@ collections:
       - label: "Settings Page"
         name: "config"
         file: "_config.yml"
-        description: >
-          You can change site-wide settings here, including total number of posts per page, title and description.
+        editor:
+          preview: false
         fields:
           - {label: "Website URL", name: "url", widget: "hidden", default: "https://www.mikeyslice.com"}
           - {label: "Website Permalink", name: "permalink", widget: "hidden", default: "/:title/"}
@@ -94,16 +94,6 @@ collections:
               - {label: "Sort Field", name: sort_field, widget: string, default: "date"}
               - {label: "Sort Reverse", name: sort_reverse, widget: string, default: true}
               - {label: "Category", name: category, widget: hidden, default: "posts"}
-              
-              - label: Trail
-                name: trail
-                widget: object
-                delete: false 
-                editor:
-                  preview: false
-                fields:
-                  - {label: "Before", name: before, widget: hidden, default: 0}  
-                  - {label: "After", name: after, widget: hidden, default: 0} 
                   
           - {label: "Global Title", name: "title", widget: "string"}
           - {label: "Global Description", name: "description", widget: "string"}
