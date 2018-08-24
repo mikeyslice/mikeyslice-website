@@ -61,7 +61,16 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
-          - {label: Layout, name: layout, widget: hidden, default: "page"}
-          - {label: "ID", name: "id", widget: "hidden", default: "about"}
+          - {label: "Layout", name: "layout", widget: hidden, default: "page"}
+          - {label: "ID", name: "id", widget: hidden, default: "about"}
+      - label: "Settings Page"
+        name: "config"
+        file: "_config.yml"
+        fields:
+          - {label: "Global Title", name: "title", widget: "string"}
+          - {label: "Global Description", name: "description", widget: "string"}
+          - {label: "Main Page Header Title", name: "header-title", widget: "string"}
+          - {label: "Posts Per Page", name: "per-page", widget: "string"}
+          
               
               
