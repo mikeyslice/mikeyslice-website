@@ -1,3 +1,4 @@
+# Settings
 url: 'https://www.mikeyslice.com'
 permalink: '/:title/'
 markdown: kramdown
