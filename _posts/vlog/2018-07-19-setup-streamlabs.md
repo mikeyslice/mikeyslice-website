@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How To Setup Stream Labs
 date: 2018-07-19
 video-id: WaWJw46CHac

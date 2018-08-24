@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Stinger transition tutorial
 date: 2018-04-05
 video-id: MUoziyUTHw0

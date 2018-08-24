@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How to win Bubble Shooter Live Cash Games
 date: 2018-04-05
 video-id: _wHnD8oTuMA

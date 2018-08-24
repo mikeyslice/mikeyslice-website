@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Cube Cube Pro League Day 1
 date: 2018-04-05
 video-id: MmIC4ppiNZY

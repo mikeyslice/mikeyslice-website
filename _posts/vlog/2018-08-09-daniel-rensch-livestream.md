@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Daniel Rensch Twitch Livestream Talk
 date: 2018-08-09
 video-id: 2bPi8Q4AIEQ

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How to stream on Twitch
 date: 2018-04-05
 video-id: XUmx3eJlK5w

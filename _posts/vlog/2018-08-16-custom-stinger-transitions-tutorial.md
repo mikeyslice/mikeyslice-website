@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Custom Stinger Transitions Tutorial
 date: 2018-08-16T00:00:00.000Z
 video-id: RMGqfdQ_k2I

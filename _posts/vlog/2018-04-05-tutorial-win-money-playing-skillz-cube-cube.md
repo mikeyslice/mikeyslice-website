@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How to win money playing Skillz and Cube Cube
 date: 2018-04-05
 video-id: 92iok1Z7lvE

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How to get more viewers on Twitch
 date: 2018-07-26
 video-id: i9lvWB2Cz5s

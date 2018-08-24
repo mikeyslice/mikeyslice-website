@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How Skillz bonus cash works
 date: 2018-04-05
 video-id: xdqr8R4sIDY

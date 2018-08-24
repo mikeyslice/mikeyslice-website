@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Question Cube Gameplay
 date: 2018-04-05
 video-id: VkGw3O3zh7M

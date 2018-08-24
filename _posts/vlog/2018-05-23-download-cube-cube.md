@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Download Cube Cube
 date: 2018-05-23
 video-id: 92iok1Z7lvE

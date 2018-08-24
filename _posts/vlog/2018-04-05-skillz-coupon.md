@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Skillz Promo Code - Free Money
 date: 2018-04-05
 video-id: su1rIyBBmn4

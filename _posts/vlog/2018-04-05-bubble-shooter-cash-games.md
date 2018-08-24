@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Bubble Shooter $20 Cash Games
 date: 2018-04-05
 video-id: qKLiGBq2s2Q

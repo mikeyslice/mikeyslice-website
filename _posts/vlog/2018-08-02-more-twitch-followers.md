@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How to get more followers on Twitch
 date: 2018-08-02
 video-id: 2pBOiKzfD2I

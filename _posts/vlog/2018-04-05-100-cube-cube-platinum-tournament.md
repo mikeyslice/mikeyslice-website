@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: $100 Cube Cube Tournament
 date: 2018-04-05
 video-id: NXoLWBGTykE

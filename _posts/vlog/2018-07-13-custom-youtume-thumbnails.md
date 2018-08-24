@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: Custom YouTube Thumbnails
 date: 2018-07-13
 video-id: ZaCbeOtPbhQ

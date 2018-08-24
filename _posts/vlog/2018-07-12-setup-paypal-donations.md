@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: How to setup PayPal donations
 date: 2018-07-12
 video-id: Ix7hY3cHFmw
