@@ -66,37 +66,38 @@ collections:
           - {label: "Layout", name: "layout", widget: hidden, default: "page"}
           - {label: "ID", name: "id", widget: hidden, default: "about"}
           - {label: "Content", name: "body", widget: "markdown", hint: "Page content goes here."}
-      - label: "Settings Page"
-        name: "config"
-        file: "_config.yml"
-        editor:
-          preview: false
-        fields:
-          - {label: "Website URL", name: "url", widget: "hidden", default: "https://www.mikeyslice.com"}
-          - {label: "Website Permalink", name: "permalink", widget: "hidden", default: "/:title/"}
-          - {label: "Editor", name: "markdown", widget: "hidden", default: "kramdown"}
-          - {label: "Excludes", name: "exclude", widget: "hidden", default: "[.c9]"}
-          - {label: "Plugins", name: "plugins", widget: hidden, default: "[jekyll-redirect-from, jekyll-paginate-v2]"}
           
-          - label: Pagination
-            name: pagination
-            widget: object
-            description: >
-              You can change the number of posts per page here.
-            fields:
-              - {label: "Pagination Enabled", name: enabled, widget: string, default: true}
-              - {label: "Debug Mode", name: debug, widget: hidden, default: false}
-              - {label: "Collections", name: collection, widget: hidden, default: "posts"}
-              - {label: "Posts Per Page", name: per_page, widget: string, default: 9}
-              - {label: "Permalink", name: permalink, widget: hidden, default: "/:num/"}
-              - {label: "Title", name: title, widget: hidden, default: ":title - page :num"}
-              - {label: "Limit", name: limit, widget: hidden, default: 0}
-              - {label: "Sort Field", name: sort_field, widget: string, default: "date"}
-              - {label: "Sort Reverse", name: sort_reverse, widget: string, default: true}
-              - {label: "Category", name: category, widget: hidden, default: "posts"}
-                  
-          - {label: "Global Title", name: "title", widget: "string"}
-          - {label: "Global Description", name: "description", widget: "string"}
+  - label: "Settings"
+    name: "config"
+    file: "_config.yml"
+    editor:
+      preview: false
+    fields:
+      - {label: "Website URL", name: "url", widget: "hidden", default: "https://www.mikeyslice.com"}
+      - {label: "Website Permalink", name: "permalink", widget: "hidden", default: "/:title/"}
+      - {label: "Editor", name: "markdown", widget: "hidden", default: "kramdown"}
+      - {label: "Excludes", name: "exclude", widget: "hidden", default: "[.c9]"}
+      - {label: "Plugins", name: "plugins", widget: hidden, default: "[jekyll-redirect-from, jekyll-paginate-v2]"}
+      
+      - label: Pagination
+        name: pagination
+        widget: object
+        description: >
+          You can change the number of posts per page here.
+        fields:
+          - {label: "Pagination Enabled", name: enabled, widget: string, default: true}
+          - {label: "Debug Mode", name: debug, widget: hidden, default: false}
+          - {label: "Collections", name: collection, widget: hidden, default: "posts"}
+          - {label: "Posts Per Page", name: per_page, widget: string, default: 9}
+          - {label: "Permalink", name: permalink, widget: hidden, default: "/:num/"}
+          - {label: "Title", name: title, widget: hidden, default: ":title - page :num"}
+          - {label: "Limit", name: limit, widget: hidden, default: 0}
+          - {label: "Sort Field", name: sort_field, widget: string, default: "date"}
+          - {label: "Sort Reverse", name: sort_reverse, widget: string, default: true}
+          - {label: "Category", name: category, widget: hidden, default: "posts"}
+              
+      - {label: "Global Title", name: "title", widget: "string"}
+      - {label: "Global Description", name: "description", widget: "string"}
           
               
               
