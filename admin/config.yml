@@ -75,11 +75,9 @@ collections:
             name: pagination
             widget: object
             fields:
-              - {label: "Posts Per Page", name: per_page, widget: string, default: "9"}
+              - {label: "Posts Per Page", name: per_page, widget: string, default: 9}
           - {label: "Global Title", name: "title", widget: "string"}
           - {label: "Global Description", name: "description", widget: "string"}
-          - {label: "Main Page Header Title", name: "header-title", widget: "string"}
-          - {label: "Posts Per Page", name: "per-page", widget: "string", default: "10"}
           
               
               
