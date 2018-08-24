@@ -71,11 +71,30 @@ collections:
           - {label: "Website Permalink", name: "permalink", widget: "hidden", default: "/:title/"}
           - {label: "Editor", name: "markdown", widget: "hidden", default: "kramdown"}
           - {label: "Excludes", name: "exclude", widget: "hidden", default: "[.c9]"}
+          - {label: "Plugins", name: "plugins", widget: hidden, default: "[jekyll-redirect-from, jekyll-paginate-v2]"}
+          
           - label: Pagination
             name: pagination
             widget: object
             fields:
+              - {label: "Pagination Enabled", name: enabled, widget: string, default: true}
+              - {label: "Debug Mode", name: debug, widget: hidden, default: false}
+              - {label: "Collections", name: collection, widget: hidden, default: "posts"}
               - {label: "Posts Per Page", name: per_page, widget: string, default: 9}
+              - {label: "Permalink", name: permalink, widget: hidden, default: "/:num/"}
+              - {label: "Title", name: title, widget: hidden, default: ":title - page :num"}
+              - {label: "Limit", name: limit, widget: hidden, default: 0}
+              - {label: "Sort Field", name: sort_field, widget: string, default: "date"}
+              - {label: "Sort Reverse", name: sort_reverse, widget: string, default: true}
+              - {label: "Category", name: category, widget: hidden, default: "posts"}
+              
+              - label: Trail
+                name: trail
+                widget: object
+                fields:
+                  - {label: "Before", name: before, widget: hidden, default: 0}  
+                  - {label: "After", name: after, widget: hidden, default: 0} 
+                  
           - {label: "Global Title", name: "title", widget: "string"}
           - {label: "Global Description", name: "description", widget: "string"}
           
