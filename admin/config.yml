@@ -71,12 +71,11 @@ collections:
           - {label: "Website Permalink", name: "permalink", widget: "hidden", default: "/:title/"}
           - {label: "Editor", name: "markdown", widget: "hidden", default: "kramdown"}
           - {label: "Excludes", name: "exclude", widget: "hidden", default: "[.c9]"}
-          fields:
-           - label: Pagination
-             name: pagination
-             widget: object
-             fields:
-               - {label: "Posts Per Page", name: per_page, widget: string, default: "9"}
+          - label: Pagination
+            name: pagination
+            widget: object
+            fields:
+              - {label: "Posts Per Page", name: per_page, widget: string, default: "9"}
           - {label: "Global Title", name: "title", widget: "string"}
           - {label: "Global Description", name: "description", widget: "string"}
           - {label: "Main Page Header Title", name: "header-title", widget: "string"}
