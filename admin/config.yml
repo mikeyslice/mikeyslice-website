@@ -52,14 +52,14 @@ collections:
       - {label: "Post ID", name: "id", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown", hint: "You can use Markdown or Rich Text."}  
       
-  - name: "stingers"
-    label: "stingers"
-    file: "stingers.md"
-    description: "General Site Settings"
-    delete: false # Prevent users from deleting documents in this collection
-    editor:
-      preview: false
-    fields:
-      - {label: "Value", name: "redirect_to", widget: "string"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "about.html"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
               
               
