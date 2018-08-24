@@ -58,14 +58,19 @@ collections:
       - label: "About Page"
         name: "about"
         file: "about.html"
+        description: >
+          You can edit the About page title, description and content here.
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
           - {label: "Layout", name: "layout", widget: hidden, default: "page"}
           - {label: "ID", name: "id", widget: hidden, default: "about"}
+          - {label: "Content", name: "body", widget: "markdown", hint: "Page content goes here."}
       - label: "Settings Page"
         name: "config"
         file: "_config.yml"
+        description: >
+          You can change site-wide settings here, including total number of posts per page, title and description.
         fields:
           - {label: "Website URL", name: "url", widget: "hidden", default: "https://www.mikeyslice.com"}
           - {label: "Website Permalink", name: "permalink", widget: "hidden", default: "/:title/"}
@@ -76,6 +81,8 @@ collections:
           - label: Pagination
             name: pagination
             widget: object
+            description: >
+              You can change the number of posts per page here.
             fields:
               - {label: "Pagination Enabled", name: enabled, widget: string, default: true}
               - {label: "Debug Mode", name: debug, widget: hidden, default: false}
@@ -91,6 +98,9 @@ collections:
               - label: Trail
                 name: trail
                 widget: object
+                delete: false 
+                editor:
+                  preview: false
                 fields:
                   - {label: "Before", name: before, widget: hidden, default: 0}  
                   - {label: "After", name: after, widget: hidden, default: 0} 
