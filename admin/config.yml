@@ -52,7 +52,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", hint: "You can use Markdown or Rich Text."}  
       
   - label: "Settings"
-    name: "Settings"
+    name: "settings"
     file: "_config.yml"
     description: "General Site Settings"
     delete: false # Prevent users from deleting documents in this collection
