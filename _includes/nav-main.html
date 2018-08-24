@@ -1,4 +1,6 @@
-{% if page.layout == "post" or "post-video" %}
+{% if page.layout == "post" %}
+<div class="back-btn"><a href="/blog" title="Blog">&#9664;</a></div>
+{% elsif page.layout == "post-video" %}
 <div class="back-btn"><a href="/blog" title="Blog">&#9664;</a></div>
 {% endif %}
 <div class="button_container" id="toggle">
