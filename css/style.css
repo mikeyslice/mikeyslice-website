@@ -926,3 +926,50 @@ iframe {
     width: 560px;
     height: auto;
 }
+
+/* Skillz Lessons Page */
+
+.skillz-lessons {
+  min-height: 100%;
+  padding: 50px;
+}
+
+.skillz-lessons h2 {
+  font-size: 4.2rem;
+  font-weight: 300;
+}
+
+.skillz-lessons p, .plan-description {
+  font-size: 2.2rem;
+  line-height: 1.8;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.skillz-lessons .cd-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.bubble-shooter, .strike-bowling {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (min-width: 700px) {
+  .bubble-shooter, .strike-bowling {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .skillz-lessons {
+  padding: 100px 200px;
+  }
+}
