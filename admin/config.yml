@@ -103,6 +103,7 @@ collections:
                   
           - {label: "Global Title", name: "title", widget: "string"}
           - {label: "Global Description", name: "description", widget: "string"}
+          - {label: "Main Header Title", name: "header-title", widget: "string"}
           
               
               
