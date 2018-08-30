@@ -1,4 +1,4 @@
-url: 'https://www.mikeyslice.com'
+url: 'https://www.mikeyslice.netlify.com'
 permalink: '/:title/'
 markdown: kramdown
 exclude:
