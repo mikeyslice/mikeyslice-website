@@ -3,7 +3,9 @@ layout: post-video
 title: '#Grandmaster Teaches #Chess to Grasshopper | Episode 1'
 date: 2018-08-31T16:14:10.727Z
 video-id: vs6l9fmaVBI
-excerpt: '"Now you''re under my supervision, so you can''t make bad moves"'
+excerpt: >-
+  "Now you're under my supervision, so you can't make bad moves" - Eugene
+  Perelshteyn
 disclaimer: '1'
 ad: '1'
 equipment: '0'
