@@ -1,7 +1,7 @@
 ---
 layout: post-video
 title: '⚡️Playing #Chess + #Hearthstone on Twitch | Episode 6⚡️'
-date: 2018-09-07T18:00:19.859Z
+date: 2018-09-08T18:00:19.859Z
 video-id: ZNKW4OubFOE
 excerpt: 'Chess game play from Partnered Twitch streamer, MikeySlice. Episode 6'
 disclaimer: '1'
