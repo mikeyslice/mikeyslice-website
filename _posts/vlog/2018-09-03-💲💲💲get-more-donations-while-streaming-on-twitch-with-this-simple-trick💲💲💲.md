@@ -1,7 +1,7 @@
 ---
 layout: post-video
 title: "\U0001F4B2\U0001F4B2\U0001F4B2Get More Donations While Streaming On Twitch With This Simple Trick\U0001F4B2\U0001F4B2\U0001F4B2"
-date: 2018-09-03T19:49:04.075Z
+date: 2018-09-13T18:00:04.075Z
 video-id: 5vJIoh0a4zc
 excerpt: Understand why people are donating in the first place.
 disclaimer: '1'
