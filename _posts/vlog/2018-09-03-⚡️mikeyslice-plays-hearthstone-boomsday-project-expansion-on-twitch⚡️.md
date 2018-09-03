@@ -1,7 +1,7 @@
 ---
 layout: post-video
 title: '⚡️MikeySlice plays #Hearthstone Boomsday Project Expansion on Twitch⚡️'
-date: 2018-09-03T20:02:33.397Z
+date: 2018-09-03T16:02:33.397Z
 video-id: TBKNslEphrA
 excerpt: 'Hearthstone''s new expansion is out, and I''m playing with it!'
 disclaimer: '1'
