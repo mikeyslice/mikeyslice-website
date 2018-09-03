@@ -1,7 +1,7 @@
 ---
 layout: post-video
 title: '⚡️Playing #Chess + #Hearthstone on Twitch | Episode 10⚡️'
-date: 2018-09-02T20:15:48.776Z
+date: 2018-09-12T20:15:48.776Z
 video-id: 9Rn2zc14CcM
 excerpt: Chess game play from a Partnered Twitch streamer.
 disclaimer: '1'
