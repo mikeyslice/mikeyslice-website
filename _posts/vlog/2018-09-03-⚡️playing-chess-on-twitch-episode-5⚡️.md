@@ -1,7 +1,7 @@
 ---
 layout: post-video
 title: '⚡️Playing #Chess on Twitch | Episode 5⚡️'
-date: 2018-09-08T18:00:03.401Z
+date: 2018-09-07T18:00:03.401Z
 video-id: x_Gu0xn6CYw
 excerpt: 'Chess game play from Partnered Twitch streamer, MikeySlice.'
 disclaimer: '1'
