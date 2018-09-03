@@ -2,7 +2,7 @@
 layout: post-video
 title: Make money every second you're at the casino. Here's how!
 date: 2018-09-03T19:56:30.789Z
-video-id: 'https://youtu.be/w64JnYxY3Zk'
+video-id: w64JnYxY3Zk
 excerpt: Tired of losing every time you're at the casino? I feel your pain!
 disclaimer: '1'
 ad: '1'
