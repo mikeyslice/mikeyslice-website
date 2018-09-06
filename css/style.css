@@ -853,6 +853,28 @@ iframe {
   .post-content {
   width: 75%;
   }
+  /* IFRAME */
+
+.resp-container {
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%;
+    margin: 0 20px;    
+}
+
+.resp-iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.post-video {
+  width: 100%;
+}
 }
 
 /* Pagination */
@@ -965,6 +987,10 @@ iframe {
   align-items: center;
   justify-items: center;
   }
+  .resp-iframe {
+  width: 560px;
+  height: 315px;
+}
 }
 
 
@@ -1064,3 +1090,4 @@ iframe {
   width: 400px;
   border: 1px solid #fbbf28;
 }
+
