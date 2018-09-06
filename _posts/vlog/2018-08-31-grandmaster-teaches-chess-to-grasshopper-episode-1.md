@@ -1,7 +1,7 @@
 ---
 layout: post-video
 title: '#Grandmaster Teaches #Chess to Grasshopper | Episode 1'
-date: 2018-08-31T16:14:10.727Z
+date: 2018-09-06T14:12:10.727Z
 video-id: vs6l9fmaVBI
 featured: 'true'
 excerpt: >-
