@@ -1,0 +1,26 @@
+<section id="featured-posts">
+<div class="posts-wrapper">
+    {% for post in site.posts %}
+      {% if post.featured == true %}
+        <ul class="post-index">
+            <li class="post-details">
+              <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+              <span class="post-date">{{ post.date | date: "%m/%d/%y" }}</span>
+              <span class="post-excerpt">{% if post.excerpt %}{{ post.excerpt | truncatewords: 30 }}{% else %}{{ post.content | strip_html | truncatewords: 50 }}{% endif %}</span>
+            </li>
+            <li class="post-video">
+                {% if post.video-id %}
+                <div class="resp-container">
+                <iframe class="resp-iframe" src="https://www.youtube.com/embed/{{ post.video-id }}" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                {% else %}
+                <a href="{{ post.url }}" title="{{ post.title }}">
+                <img src="{{ post.img }}" class="video-replacement-img" alt="Mikey Slice New Post Card"/>
+                </a>
+                {% endif %}
+            </li>
+        </ul>
+      {% endif %}
+    {% endfor %}
+</div>
+</section>

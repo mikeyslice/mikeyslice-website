@@ -23,6 +23,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "img", widget: "image", default: "/img/new_post.png"}
+      - {label: "Featured", name: "featured", widget: "string", default: "false", hint: "Enter true to feature the post on your main page"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Disclaimer Section", name: "disclaimer", widget: "number", default: "1", hint: "Enter 1 to enable the Disclaimer or 0 to disable it"}
       - {label: "Ad Section", name: "ad", widget: "number", default: "1", hint: "Enter 1 to enable the Ad or 0 to disable it"}
@@ -44,6 +45,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "YouTube Video ID", name: "video-id", widget: "string"}
+      - {label: "Featured", name: "featured", widget: "string", default: "false", hint: "Enter true to feature the post on your main page"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Disclaimer Section", name: "disclaimer", widget: "number", default: "1", hint: "Enter 1 to enable the Disclaimer or 0 to disable it"}
       - {label: "Ad Section", name: "ad", widget: "number", default: "1", hint: "Enter 1 to enable the Ad or 0 to disable it"}

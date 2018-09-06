@@ -11,6 +11,7 @@ ad: '1'
 equipment: '0'
 services: '1'
 id: post
+featured: true
 ---
 Grandmaster Eugene Perelshteyn teaches grasshopper, MikeySlice. This was recorded live on [Twitch](http://www.twitch.tv), then edited to perfection just for you to watch on  [YouTube](http://www.youtube.com). Eugene shares his grandmaster Chess ideas during my gameplay while I'm trying to check mate my opponent. 
 

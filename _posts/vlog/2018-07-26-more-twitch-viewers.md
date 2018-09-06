@@ -9,6 +9,7 @@ ad: "1"
 equipment: "1"
 services: "1"
 id: post
+featured: true
 ---
 
 ## How To Get More Viewers On Twitch
