@@ -1,15 +1,18 @@
 ---
 layout: post-video
 title: How to get more viewers on Twitch
-date: 2018-07-26
+date: 2018-07-26T00:00:00.000Z
 video-id: i9lvWB2Cz5s
-excerpt: Watch as I show you my secrets on how to get more viewers on Twitch by using simple these simple tactics. This tutorial shows you tips and tricks on how to get more views on Twitchtv.
-disclaimer: "1"
-ad: "1"
-equipment: "1"
-services: "1"
+featured: 'true'
+excerpt: >-
+  Watch as I show you my secrets on how to get more viewers on Twitch by using
+  simple these simple tactics. This tutorial shows you tips and tricks on how to
+  get more views on Twitchtv.
+disclaimer: '1'
+ad: '1'
+equipment: '1'
+services: '1'
 id: post
-featured: true
 ---
 
 ## How To Get More Viewers On Twitch
