@@ -3,6 +3,7 @@ layout: post-video
 title: '#Grandmaster Teaches #Chess to Grasshopper | Episode 1'
 date: 2018-08-31T16:14:10.727Z
 video-id: vs6l9fmaVBI
+featured: 'true'
 excerpt: >-
   "Now you're under my supervision, so you can't make bad moves" - Eugene
   Perelshteyn
@@ -11,7 +12,6 @@ ad: '1'
 equipment: '0'
 services: '1'
 id: post
-featured: true
 ---
 Grandmaster Eugene Perelshteyn teaches grasshopper, MikeySlice. This was recorded live on [Twitch](http://www.twitch.tv), then edited to perfection just for you to watch on  [YouTube](http://www.youtube.com). Eugene shares his grandmaster Chess ideas during my gameplay while I'm trying to check mate my opponent. 
 
