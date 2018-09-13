@@ -1092,5 +1092,5 @@ iframe {
 }
 
 #featured-posts {
-  min-height: 100%;
+  height: auto;
 }
