@@ -1091,3 +1091,6 @@ iframe {
   border: 1px solid #fbbf28;
 }
 
+#featured-posts {
+  min-height: 100%;
+}
