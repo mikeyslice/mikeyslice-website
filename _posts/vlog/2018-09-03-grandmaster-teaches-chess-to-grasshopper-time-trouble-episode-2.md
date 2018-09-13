@@ -3,7 +3,7 @@ layout: post-video
 title: '#Grandmaster Teaches #Chess to Grasshopper | Time Trouble | Episode 2'
 date: 2018-09-06T12:00:21.409Z
 video-id: SPeIsAI5RAU
-featured: 'true'
+featured: 'false'
 excerpt: '"Now we gotta go into lightning mode, Knight d4" - Eugene Perelshteyn '
 disclaimer: '1'
 ad: '1'
