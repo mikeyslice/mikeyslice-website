@@ -1,5 +1,5 @@
 ---
 layout: nil
 redirect_to:
-  - https://itunes.apple.com/us/app/cube-cube-mobile-esports/id1125555270?mt=8
+  - https://click.linksynergy.com/fs-bin/click?id=J5m4eYqJqic&offerid=564633.4&type=3&subid=0
 ---

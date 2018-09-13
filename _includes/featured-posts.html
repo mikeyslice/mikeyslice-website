@@ -1,7 +1,7 @@
-<section id="featured-posts">
+<section id="featured-posts" class="cd-fixed-background" data-type="slider-item">
 <div class="posts-wrapper">
     {% for post in site.posts %}
-      {% if post.featured == true %}
+      {% if post.featured == 'true' %}
         <ul class="post-index">
             <li class="post-details">
               <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
