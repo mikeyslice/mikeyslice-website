@@ -1,5 +1,5 @@
 ---
 layout: nil
 redirect_to:
-  - https://click.linksynergy.com/link?id=J5m4eYqJqic&offerid=564633.12033203480&type=2&murl=http%3A%2F%2Fsolitairecubeios
+  - https://click.linksynergy.com/fs-bin/click?id=J5m4eYqJqic&offerid=564633.21&type=4&subid=0
 ---
