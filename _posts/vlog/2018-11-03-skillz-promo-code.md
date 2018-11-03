@@ -9,7 +9,7 @@ excerpt: >-
   codes for your Skillz account. You will be amazed to know that Skillz Promo
   Code 2f05j can help you get $10 bonus on your first deposit. Moreover, it will
   also raise your ranking on Google for Skillz Promo Code. 
-disclaimer: '2'
+disclaimer: '1'
 ad: '0'
 equipment: '0'
 services: '0'
