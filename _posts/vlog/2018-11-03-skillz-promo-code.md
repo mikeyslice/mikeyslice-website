@@ -3,7 +3,7 @@ layout: post-video
 title: Skillz Promo Code
 date: 2018-11-03T21:51:18.887Z
 video-id: 'https://youtu.be/tLynwXfRyqA'
-featured: 'false'
+featured: 'True'
 excerpt: >-
   I welcome you all on my website Skillz Promo Codez. Here you can get the promo
   codes for your Skillz account. You will be amazed to know that Skillz Promo
