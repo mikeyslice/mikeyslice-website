@@ -3,7 +3,7 @@ layout: post-video
 title: Chess | TILTED BULLET | Episode 1
 date: 2018-10-02T17:42:00.000Z
 video-id: 'https://youtu.be/AaMnVxSbEWQ'
-featured: 'true'
+featured: 'false'
 excerpt: This is Episode 1 of the Official YouTube Series TILTED BULLET.
 disclaimer: '1'
 ad: '1'
