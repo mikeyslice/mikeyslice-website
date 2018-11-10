@@ -1094,3 +1094,26 @@ iframe {
 #featured-posts {
   height: auto;
 }
+
+/* Games */
+.ios-icon, .android-icon {
+  max-width: 150px;
+}
+.android-icon {
+    border: 1px solid #a6a6a6;
+    border-radius: 8px;
+    max-width: 160px;
+}
+.game-icon {
+    max-width: 66px;
+    border-radius: 20px;
+    border: 1px solid #fbbf27;
+}
+.games-banner {
+    text-align: center;
+    padding: 100px;
+    background: #ba3e56;
+}
+.games-banner img {
+    border: 1px solid #ab3f54;
+}

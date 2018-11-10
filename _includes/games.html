@@ -1,0 +1,35 @@
+<div class="games-wrapper">
+    <div class="games-banner">
+        <a href="https://click.linksynergy.com/fs-bin/click?id=J5m4eYqJqic&offerid=564633.14&type=4&subid=0" target="_blank">
+        <img alt="Cube Cube 100mill 2" border="0" src="https://s3.amazonaws.com/skillz-marketing/Affiliate/Banner+Ads/CC/Cube+Cube+Banner+Design+2_0.jpg">
+        </a>
+    </div>
+    {% for game in site.data.games %}
+    <ul class="post-index">
+        <li class="post-details">
+          <a href="{{ game.url-ios }}" class="post-title" target="_blank">
+          <img src="{{ game.icon }}" class="game-icon"/>
+          </a>
+          <div>
+          <a href="{{ game.url-ios }}" class="post-title" target="_blank">{{ game.title }}</a>
+          <span class="post-date">{{ game.company }}</span>
+          </div>
+        </li>
+        <li class="post-video">
+            {% if game.url-android != "" %}
+            <a href="{{ game.url-android }}" title="{{ game.title }}" target="_blank">
+            <img src="/img/android.png" class="android-icon" alt="Download for Android"/>
+            </a>
+            <a href="{{ game.url-ios }}" title="{{ game.title }}" target="_blank">
+            <img src="/img/ios.svg" class="ios-icon" alt="Download for iOS"/>
+            </a>
+            {% else %}
+            <a href="{{ game.url-ios }}" title="{{ game.title }}" target="_blank">
+            <img src="/img/ios.svg" class="ios-icon" alt="Download for iOS"/>
+            </a>
+            {% endif %}
+        </li>
+    </ul>
+    {% endfor %}
+</div>
+
