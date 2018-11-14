@@ -1121,3 +1121,23 @@ iframe {
 .device {
   text-align: center;
 }
+.games-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 150px 25px;
+    list-style: none;
+    background: #161742;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+.games-content ul {
+    list-style: square;
+    text-align: center;
+    list-style-position: inside;
+}
+.games-content h2 {
+    padding-top: 50px;
+}
