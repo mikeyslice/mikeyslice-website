@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solitaire Cube Match Code
-date: 2019-01-05T22:10:14.629Z
+date: 2019-01-04T22:10:14.629Z
 img: /uploads/solitaire-cube-1-.png
 featured: 'True'
 excerpt: >-
