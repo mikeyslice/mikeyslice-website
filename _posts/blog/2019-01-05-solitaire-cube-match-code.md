@@ -3,7 +3,7 @@ layout: post
 title: Solitaire Cube Match Code
 date: 2019-01-04T22:10:14.629Z
 img: /uploads/solitaire-cube-1-.png
-featured: 'True'
+featured: 'true'
 excerpt: >-
   Looking for a Solitaire Cube match code? If yes, then you have come to the
   right page! Solitaire Cube is a classic card game that I’m sure you have
