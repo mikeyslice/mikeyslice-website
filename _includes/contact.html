@@ -2,16 +2,13 @@
     <div class="cd-content" id="contact-form">
         <h2>Contact</h2>
         <p>Submit a message via the contact form or use one of the links below to connect with me!</p>
-
+    
         <form name="htmlform" action="/thanks.html" method="POST" netlify>
-        <p class="hidden">
-        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-        </p>
         <input type="text" name="first_name" placeholder="NAME" required>
         <input  type="email" name="email" placeholder="MAIL" required>
         <textarea name="comments" placeholder="MESSAGE" required ></textarea>
+        <div data-netlify-recaptcha="true"></div>
         <button name="send" type="submit" class="submit">SEND</button>
         </form>
-        
     </div>
 </section>
