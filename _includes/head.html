@@ -66,4 +66,8 @@ src="https://alb.reddit.com/snoo.gif?q=CAAHAAABAAoACQAAAAAB778BAA==&s=o57zsPHLGH
   gtag('config', 'AW-949382154');
 </script>
 
+{% if page.adallow != 0 %}
+<!--AdSense-->
+   {% include ads-0.html %}  
+{% endif %}
 </head>
