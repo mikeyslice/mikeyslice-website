@@ -17,6 +17,11 @@
 {% elsif page.id == "thanks" %}
 {% include thanks.html %}
 {% endif %}
+
+{% if page.allowads == 1 %}
+<!--AdSense-->
+   {% include ads-1.html %}  
+{% endif %}
 {% include footer.html %}
 <script src="/js/jquery-2.1.1.js"></script>
 <script src="/js/main.js"></script>
