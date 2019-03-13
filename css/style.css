@@ -566,7 +566,8 @@ Main Components
   }
   .logo-container {
     max-width: 200px;
-}
+  }
+  
 }
 
 @media only screen and (max-width: 499px) {
@@ -582,6 +583,10 @@ Main Components
   .logo-container {
     max-width: 200px;
     top: 40%;
+  }
+  
+  .logo-container svg {
+    max-width: 150px;
   }
   .overlay nav {
     font-size: 25px;
