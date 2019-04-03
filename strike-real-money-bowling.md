@@ -1,5 +1,5 @@
 ---
 layout: nil
 redirect_to:
-  - https://itunes.apple.com/us/app/strike!-real-money-bowling/id797092883?mt=8
+  - https://click.linksynergy.com/fs-bin/click?id=J5m4eYqJqic&offerid=564633.35&type=4&subid=0
 ---
