@@ -1,6 +1,6 @@
 url: 'https://www.mikeyslice.com'
 permalink: '/:title/'
-## C9 configuration 
+# C9 configuration 
 port: 8080
 host: 0.0.0.0
 baseurl: ''
