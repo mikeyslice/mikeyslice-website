@@ -73,7 +73,7 @@ Joining the “Tournaments” and “Head to Head” games need cash. Now Skill
 
 ## Two Ways to Get FREE Bonus Cash
 
-\#1 Share with your friends
+\#1 Share with your friends.
 
 Start telling your friends to join the games! You can share a link to your friends by Message, Email, or Twitter. When your friends get the app and make a deposit with your code, you will get a free $10 bonus cash in your account. Then, use the bonus cash to win real money by playing other players.
 
