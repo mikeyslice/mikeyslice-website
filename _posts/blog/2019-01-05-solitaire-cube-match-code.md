@@ -26,7 +26,7 @@ Are you looking for some of the coolest and easiest ways to win money by playing
 
 Sound exciting? Well, it is. This great mobile game not only comes with fun game play, but also it allows you to win money. They match you with people who are equal skill. So, you don’t have to worry about losing to the pros on your first few matches. Keep reading and see [how to enter a tournament (for free) with a $35 prize pool.](https://click.linksynergy.com/fs-bin/click?id=J5m4eYqJqic&offerid=564633.52&type=3&subid=0)
 
-![](http://www.skillzpromocodez.com/wp-content/uploads/2019/01/17309005211_affa38e31a_k-300x192.jpg)
+![](https://www.skillzpromocodez.com/wp-content/uploads/2019/01/17309005211_affa38e31a_k-300x192.jpg)
 
 
 
@@ -49,7 +49,7 @@ January 2019 $35 prize pool (FREE ENTRY) - _JANKLONDIKE19_
 February 2019 $35 prize pool (FREE ENTRY) - _FEBKLONDIKE19_
 
 
-![](http://www.skillzpromocodez.com/wp-content/uploads/2019/01/4782796901_2f467e7736_b-300x224.jpg)
+![](https://www.skillzpromocodez.com/wp-content/uploads/2019/01/4782796901_2f467e7736_b-300x224.jpg)
 
 
 
@@ -77,7 +77,7 @@ Joining the “Tournaments” and “Head to Head” games need cash. Now Skill
 
 Start telling your friends to join the games! You can share a link to your friends by Message, Email, or Twitter. When your friends get the app and make a deposit with your code, you will get a free $10 bonus cash in your account. Then, use the bonus cash to win real money by playing other players.
 
-![](http://www.skillzpromocodez.com/wp-content/uploads/2019/01/7301107446_2b1840e6bc_o-300x200.jpg)
+![](https://www.skillzpromocodez.com/wp-content/uploads/2019/01/7301107446_2b1840e6bc_o-300x200.jpg)
 
 
 \#2 Deposit
@@ -99,12 +99,12 @@ Note, Solitaire Cube mobile game is nothing but a card game that features a deep
 The practice mode is free to play. Win 10 practice matches and you’ll get $2 bonus cash. Which can be used to enter real cash games. You can take out money without making a deposit. I made $200 before I made my first deposit. You can too!
 
 
-![](http://www.skillzpromocodez.com/wp-content/uploads/2019/01/skillz-2-231x300.jpg)
+![](https://www.skillzpromocodez.com/wp-content/uploads/2019/01/skillz-2-231x300.jpg)
 
 
 ## Looking for More Skillz Match Codes?
 
-Get the Cube Cube match codes for January and February 2019 [here](https://click.linksynergy.com/fs-bin/click?id=J5m4eYqJqic&offerid=564633.53&type=3&subid=0). Find out how to setup your own Skillz Live Tournament with your own match code [here](http://www.skillzpromocodez.com/setup-live-skillz-tournament/).
+Get the Cube Cube match codes for January and February 2019 [here](https://click.linksynergy.com/fs-bin/click?id=J5m4eYqJqic&offerid=564633.53&type=3&subid=0). Find out how to setup your own Skillz Live Tournament with your own match code [here](https://www.skillzpromocodez.com/setup-live-skillz-tournament/).
 
 
 
