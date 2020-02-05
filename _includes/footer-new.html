@@ -1,7 +1,11 @@
-	<section class="cd-fixed-background img-5" data-type="slider-item">
-		<div class="cd-content">
-			<h2>Useful Links</h2>
-				<ul class="footer-list">
+<section class="cd-fixed-background img-5" data-type="slider-item" id="footer">
+
+<div class="posts-wrapper">
+    <ul class="post-index" id="footer-sect">
+        <li class="post-details">
+          <a href="{{ post.url }}" class="post-title"></a>
+          <span class="post-date">Useful Links</span>
+          <ul class="footer-list">
 					<li><a href="/home">Home</a></li>
 					<li><a href="/about">About</a></li>
 					<li><a href="/skillz-lessons">Skillz Lessons</a></li>
@@ -9,21 +13,24 @@
 					<li><a href="/games">Games</a></li>
 					<li><a href="/contact">Contact</a></li>
 				</ul>
-				<ul class="footer-list float-right">
+        </li>
+        
+        <li class="post-video">
+         <ul class="footer-list float-right">
 					<li><a href="http://www.twitch.tv/mikeyslice" target="_blank">Twitch.tv/MikeySlice</a></li>
 					<li><a href="https://www.youtube.com/c/mikeyslice" target="_blank">YouTube.com/MikeySlice</a></li>
 					<li><a href="http://www.twitter.com/zmikeyslice" target="_blank">Twitter.com/zMikeySlice</a></li>
 					<li><a href="https://www.facebook.com/zmikeyslice" target="_blank">Facebook.com/zMikeySlice</a></li>
 					<li><a href="http://www.paypal.me/mikeyslice" target="_blank">PayPal Donation Link</a></li>
 					<li><a href="/sitemap.xml" target="_blank">Sitemap/Robots</a></li>
+					
 				</ul>
+            
+        </li>
+    </ul>
+    
+   
+    
+</div>
 
-		</div>
-		<div class="logo-container footer-svg">
-    	{% include logo.html %}
-    	<div class="copy">
-		<p class="copyright">Content & design © Mikeyslice.com, <span>last updated on: {{ site.time }}.</span></p>
-		</div>
-		</div>
-		
-	</section>	
+</section>

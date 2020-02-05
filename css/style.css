@@ -101,7 +101,7 @@ Main Components
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1025px) {
   div.logo-container {
     left: 40%;
   }
@@ -115,9 +115,9 @@ Main Components
     right: 8%;
   }
   .cd-header h1 {
-    font-size: 4.2rem;
+    font-size: 3.6rem; 
     font-weight: 300;
-    top: 80%;
+    top: 82%;
   }
   .cd-footer h1 {
     font-size: 4.2rem;
@@ -210,7 +210,7 @@ Main Components
   background: url("/img/new/mikey-card.jpg") no-repeat;
   background-size: 100% auto;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1025px) {
 
   .home-btn {
     right: 35%;
@@ -228,7 +228,7 @@ Main Components
   top: 75% !important;
 }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1025px) {
   .footer-svg {
   left: 40%;
   }
@@ -688,12 +688,12 @@ div.logo-container {
 }
 
 .copy {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
 }
 p.copyright {
-    text-align: center;
+    text-align: center !important;
 }
 .copyright > span {
   color: #aaa;
@@ -743,6 +743,7 @@ p.copyright {
   align-items: center;
   padding: 50px 0;
   list-style: none;
+  min-height: 100vh;
 }
 
 .post-details {
@@ -1171,3 +1172,135 @@ section#ads {
   background-position: center;
   background-repeat: no-repeat;
 }
+.llc {
+	font-size: small;
+}
+.btn {
+    padding: 8px;
+    line-height: normal;
+    display: inline-block;
+    margin: 0 auto 10px;
+    background: #d8e187;
+    border: 1px solid #f3ff83;
+    font-size: 1.6rem;
+    color: #252424 !important;
+
+}
+.centered {
+	text-align: center;
+}
+
+.post-index-slice {
+	min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "post-details post-video";
+    justify-items: center;
+    align-items: center;
+    /*padding: 50px;*/
+    
+    list-style: none;
+	background: #000;
+}
+
+.post-index-slice:nth-child(2n) {
+
+    background: #a90b0b;
+
+}
+table {
+    margin: auto;
+}
+.about {
+	padding: 20px;
+}
+@media only screen and (min-width: 1025px) {
+	.post-index-slice {
+		padding: 50px 100px;
+	}
+	table {
+        margin: unset;
+	}
+	.about {
+	padding: 100px 200px;
+	min-height: 100%;
+	}
+}
+
+hr {
+	border-color: #e80000;
+    border-width: 3px;
+    border-style: solid;
+    margin: 50px;
+}
+
+
+
+.about p {
+	font-size: 2.2rem;
+	line-height: 1.8;
+	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+/* New Home Sections */
+
+#top-sect {
+	background-image: url("../img/new-bg/enhance-your-skill.png");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#about-sect {
+	background-image: url("../img/new-bg/about-mikey-slice.png");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#goals-sect {
+		background-image: url("../img/new-bg/goals.png");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#testimonials-sect {
+		background-image: url("../img/new-bg/testimonials.png");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#promotions-sect {
+		background-image: url("../img/new-bg/promotions.png");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#price-sect {
+		background-image: url("../img/new-bg/price-list.png");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+
+
+
+/* Footer */
+
