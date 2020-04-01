@@ -1,2 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
-https://mikeyslice.netlify.com/* https://www.mikeyslice.com/:splat 301!
+https://mikeyslice.netlify.com/* https://mikeyslice.com/:splat 301!
+https://mikeyslice.netlify.app/* https://mikeyslice.com/:splat 301!
