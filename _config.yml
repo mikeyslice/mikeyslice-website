@@ -7,6 +7,7 @@ baseurl: ''
 markdown: kramdown
 exclude:
   - .c9
+include: ["_redirects"]
 plugins:
   - jekyll-redirect-from
   - jekyll-paginate-v2
