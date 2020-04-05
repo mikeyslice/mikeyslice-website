@@ -928,18 +928,37 @@ iframe {
 }
 
 .back-btn {
-    position: fixed;
-    top: 3%;
+    position: absolute;
+    top: 4%;
     left: 3%;
     cursor: pointer;
     z-index: 100;
     transition: opacity .25s ease;
     z-index: 998;
-    font-size: 2.2em;
+    font-size: 1.6em;
 }
-
+.back-btn:hover .hide {
+		display: inline-block;
+}
+.hide sup {
+    background: red;
+    color: #000;
+    padding: 0 5px;
+    font-size: 0.5em;
+    border: 1px solid #c30000;
+    font-weight: 700;
+}
+@media (min-width: 768px) {
+	
+	.back-btn {
+		top: 3%;
+		font-size: 2.2em;
+	}
+}
 .back-btn a {
-    color: white;
+    color: red;
+		font-weight: 100;
+		font-variant: all-small-caps;
 }
 
 .disclaimer {
